@@ -1,18 +1,14 @@
-package com.example.config;
+package com.example.integration.channel;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.integration.channel.DirectChannel;
 import org.springframework.integration.channel.QueueChannel;
-import org.springframework.integration.config.EnableIntegration;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.PollableChannel;
+import org.springframework.stereotype.Component;
 
-@Configuration
-@EnableIntegration
-@ComponentScan("com.example.service")
-public class AppConfig {
+@Component
+public class HelloWorldChannel {
 
     @Bean
     public MessageChannel inputChannel() {
