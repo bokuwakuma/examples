@@ -5,7 +5,7 @@ import java.util.UUID;
 import org.springframework.integration.annotation.ServiceActivator;
 import org.springframework.stereotype.Component;
 
-import com.example.integration.message.User;
+import com.example.domain.object.User;
 
 @Component
 public class UserService {

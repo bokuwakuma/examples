@@ -1,4 +1,4 @@
-package com.example.integration.message;
+package com.example.domain.object;
 
 public class User {
 

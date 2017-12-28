@@ -5,7 +5,7 @@ import org.springframework.integration.channel.DirectChannel;
 import org.springframework.integration.channel.QueueChannel;
 import org.springframework.stereotype.Component;
 
-import com.example.integration.message.User;
+import com.example.domain.object.User;
 
 @Component
 public class UserChannel {

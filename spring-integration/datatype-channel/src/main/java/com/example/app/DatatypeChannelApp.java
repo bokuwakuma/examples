@@ -9,7 +9,7 @@ import org.springframework.integration.channel.QueueChannel;
 import org.springframework.messaging.support.GenericMessage;
 
 import com.example.config.IntegrationConfig;
-import com.example.integration.message.User;
+import com.example.domain.object.User;
 
 public class DatatypeChannelApp {
 
