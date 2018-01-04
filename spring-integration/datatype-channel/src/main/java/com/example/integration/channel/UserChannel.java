@@ -13,7 +13,7 @@ public class UserChannel {
     @Bean
     public DirectChannel inputChannel() {
         DirectChannel directChannel = new DirectChannel();
-        //directChannel.setDatatypes(User.class);
+        directChannel.setDatatypes(User.class);
         return directChannel;
     }
     
