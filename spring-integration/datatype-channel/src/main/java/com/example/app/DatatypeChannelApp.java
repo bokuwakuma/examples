@@ -30,6 +30,8 @@ public class DatatypeChannelApp {
             
             inputChannel.send(new GenericMessage<String>("Spring Integration"));
             logger.info(outputChannel.receive().getPayload().toString());
+        } catch (Exception e) {
+            logger.error(e.toString());
         }
     }
 }
